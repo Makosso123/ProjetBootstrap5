@@ -11,10 +11,87 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        .header {
+            background-color: rgb(2, 1, 61);
+            color: #fff;
+        }
+
+        .main-page {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+    </style>
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+            <img src="assets/images/logo/Booki@3x.png" alt="logo">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">A propos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-auto ">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Se connecter</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-success" href="#">S'inscrire</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="header text-center py-5">
+        <div class="container">
+            <span>En 2021, le World Wide Web a fêté ses 32 ans ! Il porte bien son nom en tant qu'élément indispensable
+                de
+                la vie de
+                milliards de personnes dans le monde entier.</span>
+            <button type="button" class="btn btn-primary">Souscrire</button>
+        </div>
+    </section>
+    <section class="main-page py-5">
+        <div class="container">
+            <div class="row h-100 justify-content-center align-item-center">
+                <div class="col-lg-4">
+                    <img src="assets/images/annie-spratt-Eg1qcIitAuA-unsplash.jpg" class="img-fluid rounded " alt="">
+                </div>
+                <div class="col-lg-8">
+                    <h1 class="p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, delectus.</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis autem libero excepturi eaque
+                        eligendi repudiandae odit sit eum odio, quas quasi iste debitis, error rem dignissimos impedit
+                        doloremque provident quam.?Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quam
+                        obcaecati tempora quia enim dicta officiis voluptate suscipit praesentium quasi, quis ex ab
+                        aliquam! Quibusdam inventore sed officiis quod nihil.</p>
+                    <form class="p-2">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Recipient's username"
+                                aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <button class="input-group-text btn btn-primary">S'inscrire</button>
+                        </div>
+                    </form>
+                </div>
 
+            </div>
+        </div>
+    </section>
 
     <script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
